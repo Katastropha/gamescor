@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score">
+                <div class="count_column">
+                    <h3 id="home">HOME</h3>
+                    <div class="count"><p id="count_home">0</p></div>
+                    <div class="count_btn">
+                        <button class="btn btn_disabled" onclick="handleOnClickPlus1Home()" disabled=true>+1</button>
+                        <button class="btn btn_disabled" onclick="handleOnClickPlus2Home()" disabled=true>+2</button>
+                        <button class="btn btn_disabled" onclick="handleOnClickPlus3Home()" disabled=true>+3</button>
+                    </div>
+                </div>
+                
+                <div class="count_column">
+                    <h3 id="guest">GUEST</h3>
+                    <div class="count"><p id="count_guest">0</p></div>
+                    <div class="count_btn">
+                        <button class="btn btn_disabled" onclick="handleOnClickPlus1Guest()" disabled=true >+1</button>
+                        <button class="btn btn_disabled" onclick="handleOnClickPlus2Guest()" disabled=true >+2</button>
+                        <button class="btn btn_disabled" onclick="handleOnClickPlus3Guest()" disabled=true >+3</button>
+                    </div>
+                </div> 
+                
+                <div class="count_column">
+                    <h3>TIME</h3>
+                    <div class="count whidth_timer"><p id="count_time">12</p></div>
+                    <div class="count_btn">
+                        <button class="btn" onclick="handlePlayOrPause()" id="play_pause"></button> 
+                    </div>
+                </div> 
+                
+            </div>
+            <button class="btn btn_start" onclick="resetGame()">START</button>                
+           
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Dismay';
+    font-weight: 400;
+    src: url('fonts/DigitalDismay.otf');
+}
+/* --------------------------------------------------- */
+
+body {
+    font-family: 'Verdana', 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #111827;
+    color: white;
+}
+
+/* --------------------------------------------------- */
+
+h3 {
+   margin: 120px auto 0px; 
+   font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+/* --------------------------------------------------- */
+
+#home {
+    
+}
+
+/* --------------------------------------------------- */
+
+#guest
+
+/* ___________________________________________________ */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;    
+     
+}
+
+/* ___________________________________________________ */
+
+.score {
+    display: flex;    
+    justify-content: center;
+    width: 825px;
+    gap: 100px;
+    margin: auto; 
+}
+
+/* --------------------------------------------------- */
+
+.count_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/* --------------------------------------------------- */
+
+.count {
+    background-color: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    font-family: 'Dismay';
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    
+}
+
+/* --------------------------------------------------- */
+
+.whidth_timer {
+    width: 200px;
+    padding: 0 10px 0 0;
+}
+
+/* --------------------------------------------------- */
+
+.btn {
+  width: 45px;
+  height: 45px;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #9AABD8;
+  color: #9AABD8;
+  border-radius: 5px;  
+  cursor: pointer;  
+  font-family: 'Dismay';
+  box-sizing: border-box;  
+  font-size: 18px;    
+  font-weight: 400;  
+  line-height: normal; 
+  will-change: transform;
+  transition: all 0.150s;
+}
+
+.btn[disabled] {
+    background: #9AABD8;
+}
+
+.btn:disabled {
+  pointer-events: none;
+}
+
+.btn:hover {
+  color: #111827;
+  background-color: #9AABD8;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: scale(1.1)
+  
+}
+
+.btn:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* --------------------------------------------------- */
+
+.btn_start {
+    display: block;
+    margin: 50px auto;
+    width: 720px;    
+}
+
+.btn_start:hover {
+    width: 665px;  
+}
+
+/* --------------------------------------------------- */
+
+
+/* --------------------------------------------------- */
